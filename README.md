@@ -129,6 +129,6 @@ Slang 2026.11, glm, lodepng, gettext (already available for OS Linux in folder l
 
 Following operating system:
 
-* **Linux**: x86_64 with kernel 5.15.0 or higher.  *Manjaro 26 (or newer) recommended.*  
-(Vudiplot library was tested on Xubuntu 24.04 and Manjaor 26)
+* **Linux**: x86_64 with kernel 6.8 or higher.  *Manjaro 26 (or newer) recommended.*  
+(Vudiplot library was tested on Xubuntu 24.04 and Manjaro 26)
 
