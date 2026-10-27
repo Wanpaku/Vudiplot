@@ -74,7 +74,7 @@ if(CMAKE_SYSTEM_NAME STREQUAL "Linux")
   # Attempt to find the slang compiler (slangc)
   find_program(SLANGC_EXECUTABLE
     NAMES slangc
-    PATHS ${CMAKE_CURRENT_SOURCE_DIR}/libs/Linux/slangc
+    PATHS ${CMAKE_CURRENT_SOURCE_DIR}/libs/Linux/slangc/bin
     REQUIRED
   )
 
