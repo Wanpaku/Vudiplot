@@ -115,8 +115,9 @@ auto main() -> int
 ## Authors
 
   - Teg Miles (movarocks2@gmail.com)
-  - Icons were taken from icon8.com.
-  - Images were taken from pexels.com.
+  - Icons were taken from https://icons8.com/.
+  - Images were taken from https://www.pexels.com/.
+  - The font was taken from https://www.nerdfonts.com/.
 
 ## Requirements
 
