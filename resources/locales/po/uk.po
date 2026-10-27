@@ -1,0 +1,500 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-27 13:52+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.9\n"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:123
+msgid "Failed to create ImGui context!"
+msgstr "Не вдалося створити контекст ImGui!"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:129
+msgid "Failed to create ImPlot context!"
+msgstr "Не вдалося створити контекст ImPlot!"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:153
+msgid "Can't load font file: "
+msgstr "Не вдалося завантажити файл шрифту: "
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:229
+msgid "Wrong style index: "
+msgstr "Хибний індекс стилю: "
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:349
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:367
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiTextureMesh/ImGuiTextureMesh.cpp:156
+msgid "Unsupported layout transition!"
+msgstr "Непідтримуваний перехід для формату!"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:524
+msgid "Failed to open file: "
+msgstr "Не вдалося відкрити файл: "
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:798
+msgid "Textures doesn't loaded!"
+msgstr "Текстури не завантажено!"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:804
+msgid "Vertex buffers are empty!"
+msgstr "Vertex buffers порожні!"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:809
+msgid "Index buffers are empty!"
+msgstr "Index buffers порожні!"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:816
+msgid "Screenshot buffer is nullptr!"
+msgstr "Буфер знімку екрана = nullptr!"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:823
+msgid "Font image is nullptr"
+msgstr "Font image = nullptr"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:830
+msgid "Font image view is nullptr!"
+msgstr "Font image view = nullptr!"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:839
+msgid "Font sampler is nullptr!"
+msgstr "Font sampler = nullptr!"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:845
+msgid "Font descriptor pool is nullptr!"
+msgstr "Font descriptor pool = nullptr!"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:851
+msgid "Font descriptor set layout is nullptr!"
+msgstr "Font descriptor set layout = nullptr!"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:858
+msgid "Font descriptor set is nullptr!"
+msgstr "Font descriptor set = nullptr!"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:866
+msgid "Pipeline layout is nullptr!"
+msgstr "Pipeline layout = nullptr!"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:872
+msgid "Graphics pipeline is nullptr"
+msgstr "Graphics pipeline = nullptr"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:1034
+msgid "Color map selector"
+msgstr "Селектор кольорових мап"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:1057
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:1343
+msgid "Blue silk background is invalid!"
+msgstr "Тло blue silk хибне!"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:1064
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:1350
+msgid "Red and blue background is invalid!"
+msgstr "Тло red and blue хибне!"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:1070
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:1380
+msgid "Exit image is invalid!"
+msgstr "Іконка \"Вихід\" хибна!"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:1079
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:1360
+msgid "File"
+msgstr "Файл"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:1087
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:1367
+msgid "Save image is invalid!"
+msgstr "Ікона \"Зберегти знімок екрана\" хибна!"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:1092
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:1372
+msgid "Save screenshot"
+msgstr "Зберегти знімок екрана"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:1099
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:1385
+msgid "Exit"
+msgstr "Вихід"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:1105
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:1392
+msgid "Settings"
+msgstr "Налаштування"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:1150
+msgid "Themes"
+msgstr "Теми"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:1190
+msgid "Help"
+msgstr "Допомога"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:1198
+msgid "About image is invalid!"
+msgstr "Іконка \"Про ImGui\" хибна!"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:1202
+msgid "About ImGui"
+msgstr "Про ImGui"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:1228
+msgid "Dark green leaves background is invalid!"
+msgstr "Тло dark green leaves хибне!"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:1235
+msgid "Vulkan logo background is invalid!"
+msgstr "Тло Vulkan logo хибне!"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:1259
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:1409
+msgid "Interface language"
+msgstr "Мова інтерфейсу"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:1299
+msgid "User manual image is invalid!"
+msgstr "Іконка User manual хибна!"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:1316
+msgid "For changing themes press Alt+S"
+msgstr "Для зміни теми натисніть Alt+S"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:1401
+msgid "Home image is invalid!"
+msgstr "Ікона Home хибна!"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:1405
+msgid "Restore zoom"
+msgstr "Відновити масштаб"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:1428
+msgid "Themes Alt+S"
+msgstr "Теми Alt+S"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:1465
+msgid "ImPlot colormap selector:"
+msgstr "ImPlot colormap selector:"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:1472
+msgid "ImPlot colormap selector"
+msgstr "ImPlot colormap selector"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:1493
+msgid "The plot param is nullptr."
+msgstr "Plot param = nullptr."
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:1497
+msgid "The screenshot is saved"
+msgstr "Знімок екрана збережено"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:1508
+msgid "Creating plot menubar failed!"
+msgstr "Не вдалося створити plot menubar!"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:1526
+msgid "ImPlot colormap"
+msgstr "Кольорова мапа ImPlot"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:1552
+msgid "Plot line failed!"
+msgstr "Функція plot line схибила!"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:1559
+msgid "Heatmaps failed!"
+msgstr "Функція heatmaps схибила!"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:1567
+msgid "Image plot failed!"
+msgstr "Функція image plot схибила!"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:1574
+msgid "Wrong type of the plot parameters pointer."
+msgstr "Хибний тип для вказівника параметрів графіка."
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:1590
+msgid "Show demos failed!"
+msgstr "Функція show demos схибила!"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:1633
+msgid "Sizes of x_axis and y_axis in the plot don't match!"
+msgstr "Розміри x_axis i y_axis цього графіку різні!"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:1643
+msgid "Sizes of axes of the plot number "
+msgstr "Розміри даних для координат графіку номер "
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:1644
+msgid " don't match!"
+msgstr " не збігаються!"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:1666
+msgid "BeginPlot in Line plot is failed!"
+msgstr "BeginPlot в line plot схибив!"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:1681
+msgid ""
+"The product of rows and cols of the heatmap  must be equal to the size of "
+"values! "
+msgstr ""
+"Добуток рядків і стовпців heatmap має дорівнювати кількості елементів! "
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:1699
+msgid "Size of a heatmap x_labels must be equal to cols amount."
+msgstr ""
+"Кількість ярликів для вісі х heatmap має дорівнювати кількості стовпців."
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:1713
+msgid "Size of a heatmap y_labels must be equal to rows amount."
+msgstr "Кількість ярликів для вісі y heatmap має дорівнювати кількості рядків."
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:1732
+msgid "BeginPlot in Heatmaps is failed!"
+msgstr "BeginPlot у heatmaps схибив!"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:1747
+msgid "Insufficient amout of images in plot images manager: "
+msgstr "Недостатня кількість зображень в plot images manager: "
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:1801
+msgid "BeginPlot in Image plot is failed!"
+msgstr "BeginPlot в image plot схибив!"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:2131
+msgid "Failed to wait for fence!"
+msgstr "Бар'єр fence не спрацював!"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:2152
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:2575
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/Vulkan_components/GenPresentation/GenPresentation.cpp:158
+#, c-format
+msgid "SDL_GetWindowSizeInPixels failed: %s"
+msgstr "Збій SDL_GetWindowSizeInPixels: %s"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:2154
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/Vulkan_components/GenPresentation/GenPresentation.cpp:160
+msgid "SDL get window size failed."
+msgstr "Не вдалося отримати розмір вікна SDL."
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:2173
+msgid "Failed to acquire swap chain image!"
+msgstr "Не вдалося отримати swapchain image!"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:2253
+msgid "Screenshot fence wait failed!"
+msgstr "Бар'єр fence для знімка екрана не спрацював!"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:2292
+msgid "Unsupported swapchain format for screenshot"
+msgstr "Непідтримуваний формат зображення для знімка екрана"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:2309
+msgid "Lodepng image encoder error "
+msgstr "Помилка кодера зображень Lodepng "
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:2389
+#, c-format
+msgid "Failed to change window state: %s"
+msgstr "Збій при спробі зміни розміру вікна: %s"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:2392
+msgid "Failed to change SDL window state."
+msgstr "Не вдалося змінити розмір вікна SDL."
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:2521
+msgid "Faile to update ImGui texture: "
+msgstr "Не вдалося оновити текстуру ImGui: "
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:2533
+#, c-format
+msgid "An error occured during saving file: %s"
+msgstr "Сталася помилка при спробі збереження файлу: %s"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:2537
+msgid "The user did not select any file."
+msgstr "Користувач не обрав жодного файлу."
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:2538
+msgid "Most likely, the dialog was canceled."
+msgstr "Швидше за все, вибір було скасовано."
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:2555
+msgid "Vudiplot_screenshot"
+msgstr "Знімок_екрана_Vudiplot"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:2578
+msgid "SDL get window size failed in save screenshot success window."
+msgstr ""
+"Не вдалося отримати розмір вікна SDL у функції save screenshot success "
+"window."
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:2590
+msgid "Screenshot is saved to this path:\n"
+msgstr "Знімок екрану збережено за цим шляхом:\n"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:2603
+msgid "OK"
+msgstr "OK"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:2619
+msgid "Insufficient amout of raw images: "
+msgstr "Недостатня кількість rgba зображень: "
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiVulkanUtil/ImGuiVulkanUtil.cpp:2626
+msgid "Amount of images and their heights or/and widths amounts don't match!"
+msgstr ""
+"Кількість зображень та кількість їхньої висоти та/або ширини не збігаються!"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiTextureManager/ImGuiTextureManager.cpp:114
+msgid "Texture not found: "
+msgstr "Текстуру не знайдено: "
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiTextureMesh/ImGuiTextureMesh.cpp:71
+msgid "Failed to load ktx texture image!"
+msgstr "Не вдалося завантажити текстуру зображення ktx!"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/GUI/ImGuiTextureMesh/ImGuiTextureMesh.cpp:179
+msgid "Texture image format does not support linear blitting!"
+msgstr ""
+"Формат зображення текстури не підтримує лінійне копіювання бітового масиву "
+"(blitting!"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/Utils/BufferUtils/BufferUtils.cpp:44
+msgid "Failed to find suitable memory type!"
+msgstr "Не вдалося знайти належний тип пам'яті!"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/Utils/GenSDLWindow/GenSDLWindow.cpp:46
+#, c-format
+msgid "SDL_Init failed: %s"
+msgstr "Збій SDL_Init: %s"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/Utils/GenSDLWindow/GenSDLWindow.cpp:47
+msgid "SDL window initialization failed."
+msgstr "Не вдалося ініціювати вікно SDL."
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/Utils/GenSDLWindow/GenSDLWindow.cpp:55
+#, c-format
+msgid "SDL_CreateWindow failed: %s\n"
+msgstr "Збій SDL_CreateWindow: %s\n"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/Utils/GenSDLWindow/GenSDLWindow.cpp:57
+msgid "Creation of SDL window failed."
+msgstr "Не вдалося створити вікно SDL."
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/Utils/GenGettext/GenGettext.cpp:33
+msgid "Setting locale failed!"
+msgstr "Не вдалося встановити локаль!"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/Utils/GenGettext/GenGettext.cpp:40
+msgid "Binding textdomain failed!"
+msgstr "Функція bindtextdomain схибила!"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/Utils/GenGettext/GenGettext.cpp:46
+msgid "Textdomain failed!"
+msgstr "Функція textdomain схибила!"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/Vulkan_components/GenInstance/GenInstance.cpp:45
+#, c-format
+msgid "SDL_Vulkan_GetInstanceExtensions failed: %s"
+msgstr "Збій SDL_Vulkan_GetInstanceExtensions: %s"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/Vulkan_components/GenInstance/GenInstance.cpp:47
+msgid "SDL extensions failed."
+msgstr "Збій SDL extensions."
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/Vulkan_components/GenInstance/GenInstance.cpp:87
+msgid "Required layer not supported: "
+msgstr "Необхідний формат не підтримується: "
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/Vulkan_components/GenInstance/GenInstance.cpp:107
+msgid "Required extension not supported: "
+msgstr "Необхідне розширення не підтримується: "
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/Vulkan_components/GenInstance/GenInstance.cpp:163
+msgid "Validation layer: type "
+msgstr "Validation layer: тип "
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/Vulkan_components/GenInstance/GenInstance.cpp:164
+msgid " message: "
+msgstr " повідомлення: "
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/Vulkan_components/GenInstance/GenInstance.cpp:264
+msgid "Failed to find a suitable GPU!"
+msgstr "Не вдалося знайти належну відеокарту!"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/Vulkan_components/GenInstance/GenInstance.cpp:270
+msgid "Failed to find GPUs with Vulkan support!"
+msgstr "Не вдалося знайти відеокарту з підтримкою Vulkan!"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/Vulkan_components/GenPresentation/GenPresentation.cpp:45
+#, c-format
+msgid "SDL_Vulkan_CreateSurface failed: %s\n"
+msgstr "Збій SDL_Vulkan_CreateSurface: %s\n"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/Vulkan_components/GenPresentation/GenPresentation.cpp:51
+msgid "Failed to create Vulkan surface"
+msgstr "Не вдалося створити Vulkan surface"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/Vulkan_components/GenPresentation/GenPresentation.cpp:77
+msgid "Could not find a queue for graphics and presentation -> terminating"
+msgstr ""
+"Не вдалося знайти чергу для графіки та презентації -> припинення роботи"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/Vulkan_components/GenPresentation/GenPresentation.cpp:312
+msgid "Failed to find supported format for presentation!"
+msgstr "Не вдалося знайти підтримуваний формат для презентації!"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/Vudiplot/Vudiplot.cpp:62
+msgid "Gettext init failed!"
+msgstr "Не вдалося ініціалізувати gettext!"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/Vudiplot/Vudiplot.cpp:113
+msgid "ImGui is not initialized!"
+msgstr "ImGui не ініціалізовано!"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/Vudiplot/Vudiplot.cpp:116
+msgid "Resources is not initialized!"
+msgstr "Ресурси не ініціалізовано!"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/Vudiplot/Vudiplot.cpp:226
+msgid "Plot frame failed!"
+msgstr "Функція plot frame схибила!"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/Vudiplot/Vudiplot.cpp:250
+msgid "Plot images didn't downloaded!"
+msgstr "Зображення для функції image plot не завантажено!"
+
+#: /home/dante/Програмування/C++_projects/Vulkan_projects/Vplot_main/Vudiplot_library/Vudiplot/Vudiplot.cpp:256
+msgid "Wrong plot_config. plot_init is nullptr!"
+msgstr "Хибна змінна plot_config. plot_init = nullptr!"
+
+#~ msgid "The profile isn't supported!"
+#~ msgstr "Цей профіль не пдтримується!"
+
+#, fuzzy
+#~ msgid "BeginMenu Interface language failed!"
+#~ msgstr "Мова інтерфейсу"
+
+#, fuzzy
+#~ msgid "Main plot menubar failed!"
+#~ msgstr "Не вдалося створити вікно SDL."
+
+#, fuzzy
+#~ msgid "ImGui colormap"
+#~ msgstr "ImPlot colormap selector"
+
+#~ msgid "Colormap selector"
+#~ msgstr "Colormap selector"
+
+#~ msgid "English"
+#~ msgstr "Англійська"
+
+#~ msgid "Ukrainian"
+#~ msgstr "Українська"
