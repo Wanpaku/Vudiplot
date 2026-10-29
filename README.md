@@ -30,7 +30,6 @@ Please read the user's guide for detailed information.
 ## How to use
 
 To start using this library:  
-
 	First method:  
 	
  - Copy the repository to yours project root directory.
