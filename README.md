@@ -41,12 +41,14 @@ To start using this library:
 
  - Download release and extract it.
  - Add Vudiplot to yours CMakeLists.txt as shared library:  
+ ```cmakelists
    set(VUDIPLOT "${CMAKE_SOURCE_DIR}/Vudiplot_Linux_x86_64")  
    add_library(vudiplot SHARED IMPORTED)  
    set_target_properties(vudiplot PROPERTIES  
 	IMPORTED_LOCATION "${VUDIPLOT}/libvudiplot.so"  
 	INTERFACE_INCLUDE_DIRECTORIES "${VUDIPLOT}/include"  
   )  
+  ```
  - Link the library target_link_libraries(${PROJECT_NAME} PRIVATE vudiplot).
  
  Code example for a line plot:  
