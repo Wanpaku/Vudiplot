@@ -30,14 +30,14 @@ Please read the user's guide for detailed information.
 ## How to use
 
 To start using this library:  
-	First method:  
+	**First method:**  
 	
  - Copy the repository to yours project root directory.
  - Extract all archived runtime dependencies from libs/Linux/ to the same directory.
  - Add a folder with Vudiplot library to yours CMake file through add_subdirectory(Vudiplot library folder).
  - Link the library target_link_libraries(${PROJECT_NAME} PRIVATE vudiplot).
  
-    Second method:  
+    **Second method:**  
 
  - Download release and extract it.
  - Add Vudiplot to yours CMakeLists.txt as shared library:  
