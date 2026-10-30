@@ -36,6 +36,7 @@ along with Vudiplot library. If not, see <https://www.gnu.org/licenses/>.*/
 #include <libintl.h>
 #include <locale.h>
 #include <filesystem>
+#include <dlfcn.h>
 
 template <std::derived_from<VudiInit::PlotInit> T>
 class Vudiplot<T>::VudiImpl {
@@ -56,7 +57,7 @@ public:
 
     void init()
     {
-        const std::string resources_dir { RESOURCES_DIR };
+        const std::string resources_dir { get_resource_path().string() };
         auto gen_gettext { std::make_unique<GenGettext>(resources_dir) };
         if (!gen_gettext->init()) {
             throw std::runtime_error(gettext("Gettext init failed!"));
@@ -140,6 +141,19 @@ public:
     auto get_plot_init() -> std::unique_ptr<T>&
     {
         return plot_init;
+    }
+
+    static auto get_resource_path() -> std::filesystem::path
+    {
+        Dl_info info {};
+
+        if (dladdr(reinterpret_cast<void*>(&get_resource_path), &info) == 0
+            || info.dli_fname == nullptr) {
+            throw std::runtime_error("Cannot locate shared library");
+        }
+
+        return std::filesystem::path(info.dli_fname).parent_path()
+            / "resources";
     }
 
     void clean_up_resources()
