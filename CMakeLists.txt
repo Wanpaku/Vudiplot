@@ -306,14 +306,21 @@ set_target_properties(vudiplot PROPERTIES
   INSTALL_RPATH_USE_LINK_PATH FALSE
 )
 
-add_custom_target(copy_dependencies 
+add_custom_target(copy_dependencies
+  
     COMMAND ${CMAKE_COMMAND} -E copy_directory
     "${CMAKE_CURRENT_SOURCE_DIR}/libs"
     "$<TARGET_FILE_DIR:vudiplot>/libs"
-    COMMENT "Copying third party libraries from vudiplot runtime dependencies"
-)
 
-add_dependencies(vudiplot shaders translations copy_dependencies)
+	COMMAND ${CMAKE_COMMAND} -E copy_directory
+    "${CMAKE_CURRENT_SOURCE_DIR}/resources"
+    "$<TARGET_FILE_DIR:vudiplot>/resources"
+
+	COMMENT "Copying third party libraries and resources for vudiplot"
+  
+)
+add_dependencies(copy_dependencies translations shaders)
+add_dependencies(vudiplot copy_dependencies)
 
 option(ENABLE_SANITIZERS "Enable ASan and UBSan" OFF)
 
@@ -396,7 +403,7 @@ if(ENABLE_TESTING)
     include(Catch)
     catch_discover_tests(tests)
 	
-	add_custom_target(tests_with_coverage
+	add_custom_target(tests_with_coverage ALL
 
       COMMAND ${CMAKE_CTEST_COMMAND}
       --test-dir ${CMAKE_CURRENT_BINARY_DIR}
@@ -416,11 +423,11 @@ if(ENABLE_TESTING)
 	  --html-details "vudiplot_tests_coverage.html"
 	  --html-single-page
 	  
-      DEPENDS tests
+      DEPENDS vudiplot tests 
       WORKING_DIRECTORY "${CMAKE_CURRENT_BINARY_DIR}"
   )
 
-  add_dependencies(vudiplot tests_with_coverage)
+ # add_dependencies(tests_with_coverage vudiplot)
 
 endif()
 
