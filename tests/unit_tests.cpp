@@ -44,6 +44,7 @@ along with Vudiplot library. If not, see <https://www.gnu.org/licenses/>.*/
 #include <filesystem>
 #include <random>
 #include <numeric>
+#include <dlfcn.h>
 
 struct RGBAImage {
     std::vector<unsigned char> image;
@@ -77,6 +78,18 @@ static auto load_image(const char* filename) -> RGBAImage
     return rgba_image;
 }
 
+static auto get_resource_path() -> std::filesystem::path
+{
+    Dl_info info {};
+
+    if (dladdr(reinterpret_cast<void*>(&get_resource_path), &info) == 0
+        || info.dli_fname == nullptr) {
+        throw std::runtime_error("Cannot locate shared library");
+    }
+
+    return std::filesystem::path(info.dli_fname).parent_path() / "resources";
+}
+
 TEST_CASE("A. Test SDL window")
 {
     const std::string& window_name { "Test_Vulkan" };
@@ -90,7 +103,7 @@ TEST_CASE("A. Test SDL window")
 
 TEST_CASE("B. Test gettext")
 {
-    const std::string resources_dir { RESOURCES_DIR };
+    const std::string resources_dir { get_resource_path().string() };
 
     auto gen_gettext { std::make_unique<GenGettext>(resources_dir) };
     auto is_init { gen_gettext->init() };
@@ -348,7 +361,7 @@ TEST_CASE("I. Test ImGuiTextureMesh")
     auto& presentation_queue { gen_presentation->get_presentation_queue() };
     const auto queue_index { gen_presentation->get_queue_index() };
 
-    const std::string resources_dir { RESOURCES_DIR };
+    const std::string resources_dir { get_resource_path().string() };
     const std::string& tex_path { resources_dir
                                   + "/textures/KTX_images/about.ktx2" };
     auto mesh_init_file { std::make_unique<MeshInitInfoFile>(
@@ -473,7 +486,7 @@ TEST_CASE("J. Test ImGuiTextureManager")
     auto& presentation_queue { gen_presentation->get_presentation_queue() };
     const auto queue_index { gen_presentation->get_queue_index() };
 
-    const std::string resources_dir { RESOURCES_DIR };
+    const std::string resources_dir { get_resource_path().string() };
     const std::string& texture_path { resources_dir
                                       + "/textures/KTX_images/" };
     auto ktx_image_paths { get_image_paths(texture_path, ".ktx2") };
@@ -621,7 +634,7 @@ TEST_CASE("K. Test ImGuiVulkanUtil")
     const auto& logical_device { gen_presentation->get_logical_device() };
     auto& presentation_queue { gen_presentation->get_presentation_queue() };
     const auto queue_index { gen_presentation->get_queue_index() };
-    const std::string resources_dir { RESOURCES_DIR };
+    const std::string resources_dir { get_resource_path().string() };
     auto imgui_shader_info { std::make_unique<ShaderInitInfo>(ShaderInitInfo {
         .spv_shader_path { resources_dir + "/shaders/imgui.spv" },
         .vert_func_name { "vert_main" },
@@ -776,7 +789,7 @@ TEST_CASE("K. Test ImGuiVulkanUtil")
 
     SECTION("Test Image plot")
     {
-        const std::string resources_dir { RESOURCES_DIR };
+        const std::string resources_dir { get_resource_path().string() };
         const std::string png_texture_path { resources_dir
                                              + "/textures/images" };
         std::vector<std::string> image_paths;
@@ -882,7 +895,7 @@ TEST_CASE("L. Test Vudiplot")
     vudiplot_heatmaps.clean_up_resources();
 
     REQUIRE_NOTHROW(Vudiplot<VudiInit::ImagePlot>());
-    const std::string resources_dir { RESOURCES_DIR };
+    const std::string resources_dir { get_resource_path().string() };
     const std::string png_texture_path { resources_dir + "/textures/images" };
     std::vector<std::string> image_paths;
     try {

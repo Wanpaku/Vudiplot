@@ -34,6 +34,7 @@ along with Vudiplot library. If not, see <https://www.gnu.org/licenses/>.*/
 #include <iostream>
 #include <filesystem>
 #include <numeric>
+#include <dlfcn.h>
 
 static auto generate_random_data(const size_t count) -> std::vector<double>
 {
@@ -146,6 +147,18 @@ auto thread_draw_test(unsigned int period) -> bool
     simulate_key_combo(SDL_SCANCODE_Q, SDL_KMOD_LCTRL, window_id);
 
     return result;
+}
+
+static auto get_resource_path() -> std::filesystem::path
+{
+    Dl_info info {};
+
+    if (dladdr(reinterpret_cast<void*>(&get_resource_path), &info) == 0
+        || info.dli_fname == nullptr) {
+        throw std::runtime_error("Cannot locate shared library");
+    }
+
+    return std::filesystem::path(info.dli_fname).parent_path() / "resources";
 }
 
 TEST_CASE("L. Test Line plot")
@@ -299,7 +312,7 @@ static void load_image(const char* filename,
 TEST_CASE("O. Test image plot")
 {
 
-    const std::string resources_dir { RESOURCES_DIR };
+    const std::string resources_dir { get_resource_path().string() };
     const std::string png_texture_path { resources_dir + "/textures/images" };
 
     std::vector<std::filesystem::path> image_paths;
